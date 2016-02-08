@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="styles/style.css"/>
+		<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Inconsolata|Anonymous+Pro|Muli|Lora|Gilda+Display|Josefin+Sans|Crimson+Text|Open+Sans"/>
+		<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$("#hoverImage").mouseenter(function() {
+					$("#hoverImage").attr("src","files/joel-web-funny.jpg")
+				}).mouseleave(function() {
+					$("#hoverImage").attr("src","files/joel-web.jpg")
+				})
+			})
+		</script>
+		<title>Joel Chan | Science of science and innovation</title>
+	</head>
+	<body>
+		<div style="margin:auto">
+			<div id="header">
+				<img src="files/math.jpg" width=100% position:absolute>
+				<!-- <div id="wrapper"> -->
+					<!-- <div class="box" style="float:left; height:100%"> -->
+						<!-- <img style="width=50px; height:100px" src="files/joel-web.jpg"> -->
+					<!-- </div> -->
+					<!-- <div class="box" style="height:100%; width:50px"></div> -->
+					<!-- <div class="box" style="height:100%; margin-left:100px"> -->
+						<!-- <p> -->
+							<!-- Postdoctoral Research Fellow<br> -->
+							<!-- Human-Computer Interaction Institute<br> -->
+							<!-- Carnegie Mellon University<br> -->
+							<!-- Pittsburgh, Pennsylvania<br> -->
+						<!-- </p> -->
+					<!-- </div> -->
+				<!-- </div> -->
+			</div>
+
+			<div class="section-divider"></div>
+			
+			<div id="main">
+				<div id="about">
+					<h1 class="section-header">ABOUT</h1>
+					<p>Welcome! I am a Postdoctoral Research Fellow in the <a href="http://protolab.cs.cmu.edu/">Protolab</a>, mentored by <a href="http://www.cs.cmu.edu/~spdow">Steven Dow</a>, based in the <a href="http://www.hcii.cmu.edu/">Human-Computer Interaction Institute</a> at <a href="http://www.cmu.edu">Carnegie Mellon University</a>. I was trained in Cognitive Psychology at the <a href="http://www.pitt.edu">University of Pittsburgh</a>, under <a href="http://www.lrdc.pitt.edu/schunn">Christian Schunn</a>.</p>
+					<p>I do research to <em><strong>fortify</strong></em> and <em><strong>apply</strong></em> the emerging cognitive science of innovation through a tight interleaving of fundamental basic research and collaborative development of new tools and platforms for innovation. I focus on understanding and supporting the cognitive and collaborative processes that produce innovative new ideas. My primary research approach is to conduct detailed observations of innovation processes as they unfold in the real world: I've studied expert design teams, multidisciplinary science teams, individual designers-in-training, and contributors to online innovation communities, using a combination of text mining, protocol and sequential analyses, and statistical modeling to gain insights into these phenomena. I have also designed and run experiments to test more fine-grained questions.</p>
+					<p>If you're interested in collaborating or finding out more, please drop me a line!</p>
+				</div>
+				<div id="news">
+					<h1 class="section-header">NEWS</h1>
+					<h2>Summer 2014</h2> 
+					<ul>
+						<li>I successfully defended my <a href="files/dissertation.pdf">dissertation</a>! <em>(July 1)</em></li>
+						<br>
+						<li>My master's research on analogies and ideation in an expert design team was featured on <a href="http://phenomena.nationalgeographic.com/2014/06/18/where-do-new-ideas-come-from/">National Geographic</a>, <a href="http://www.fastcompany.com/3032418/the-future-of-work/the-science-of-brainstorming">Fast Company</a>, and <a href="http://www.businessinsider.com/analogies-helped-thomas-edison-with-ideas-2014-6">Business Insider</a></li>
+						<br>
+						<li>I joined the <a href="http://protolab.cs.cmu.edu/">Protolab</a> with <a href="http://www.cs.cmu.edu/~spdow/">Steven Dow</a> at Carnegie Mellon's <a href="http://www.hcii.cmu.edu/">Human-Computer Interaction Institute</a></li>
+					</ul>
+					<h2>Spring 2014:</h2>
+					<ul>
+						<li>My <a href="http://www.nsf.gov/sbe/scisip_ddrig.jsp">NSF Doctoral Dissertation Improvement Grant</a> application was awarded!</li>
+						<br>
+						<li>I presented work from my dissertation at <a href="http://cscw.acm.org/index.html">CSCW 2014</a>. Check out the poster <a href="http://figshare.com/articles/Conceptual_Distance_Matters_When_Building_on_Others_Ideas_in_Crowd_Collaborative_Innovation_Platforms/939406">here</a>.</li>
+					</ul>
+				</div>
+				<div id="projects">
+					<h1 class="section-header">PROJECTS</h1>
+					<div class="wrapper">
+						<h2>Collaborative Inspiration in Innovation Communities</h2>
+						<div class="box" style="float:left; height:100%">
+							<img style="width=50px; height:200px" src="files/idea_network.png">
+						</div>
+						<div class="box" style="height:100%; margin-left:225px; margin-top:-10px">
+							<p>with <span class="collab"><a href="http://www.lrdc.pitt.edu/schunn">Chris Schunn</a> (Pitt psych), <a href="http://www.cs.cmu.edu/~spdow">Steven Dow</a> (CMU HCII), <a href="http://kittur.org">Niki Kittur</a> (CMU HCII), <a href="http://www.cs.cmu.edu/~lixiu/home.html">Lisa Yu</a> (CMU HCII)</span></p>
+							<p>People build new ideas on what they know and have seen. Sometimes this a good thing; sometimes it kills creativity. In online innovation communities (e.g., Quirky, Dribble, OpenIDEO) one can be exposed to many, many potential sources of inspiration for your creativity: are there scientific principles that can guide your interactions so that you are inspired and not hindered in your creativity? We are exploring how the conceptual distance and diversity of inspiration sources influences innovation outcomes in networks of collaboration inspiration.</p>
+							<p>More recently, we have been exploring ways to embody and test these principles in social computing systems that support collaborative ideation.</p>
+							<p><strong>Recent findings:</strong></p>
+								<ul>
+								<li>Contrary to popular theory, ideas that build more on far sources of inspiration are less creative than ideas that build mainly on near sources.</li>
+								<li>Building directly on diverse sources doesn't yield immediately creative ideas; but, iterating on these ideas results in highly creative ideas.</li>
+								</ul>
+							<p><strong>Pubs:</strong></p>
+							<p><strong>Chan, J.,</strong> Dow, S., &amp; Schunn, C. (2014). Conceptual distance matters when building on others' ideas in crowd-collaborative innovation platforms. <em>Poster presented at the 17th ACM Conference on Computer Supported Cooperative Work and Social Computing, Baltimore, MD.</em> <a href="http://dx.doi.org/10.1145/2556420.2556500" rel="nofollow">http://dx.doi.org/10.1145/2556420.2556500</a>. [<a href="https://drive.google.com/file/d/0B1J84EpLdwM4ZVdmLUtYbC02RzA/edit?usp=sharing" target="_blank">PDF</a>][<a href="http://figshare.com/articles/Conceptual_Distance_Matters_When_Building_on_Others_Ideas_in_Crowd_Collaborative_Innovation_Platforms/939406" target="_blank">Poster</a>]</p>
+						</div>
+					</div>
+					<div class="wrapper">
+						<h2>Social and Cognitive Factors in Team Innovation</h2>
+						<div class="box" style="float:left; height:100%">
+							<img style="width=50px; height:135px" src="files/mer.png">
+						</div>
+						<div class="box" style="height:100%; margin-left:225px; margin-top:-10px">
+							<p>with <span class="collab"><a href="http://www.lrdc.pitt.edu/schunn">Chris Schunn</a> (Pitt psych), <a href="http://www.casl.umd.edu/spaletz">Susannah Paletz</a> (CASL)</span></p>
+							<p>How do multidisciplinary teams work together to produce innovations? We have collected thousands of hours of video of naturalistic problem-solving by student design teams across 8 semesters, solving real problems for industry clients, and among multidisciplinary teams of scientists who worked on the successful NASA Mars Exploration Rover mission (in ~2004-2005) that found evidence for water in Mars.</p>
+							<p>We are using detailed process analyses to understand the temporal interplay between important social and cognitive processes (like analogy, uncertainty, and conflict) and how they relate to team innovation.</p>
+							<p><strong>Recent findings:</strong></p>
+							<ul>
+							<li>Science teams use within-domain/discipline analogies to help reduce uncertainty during problem solving.</li>
+							<li>Brief disagreements reduce uncertainty in successful engineering teams, but increase uncertainty in unsuccessful teams.</li>
+							</ul>
+							<p><strong>Pubs:</strong></p>
+							<p>Paletz, S., <strong>Chan, J.</strong>, &amp; Schunn, C. (in revision). Making conflicts work: Team success moderates the relationship between micro-conflicts and uncertainty.</p>
+							<p>Luo, W,* Litman, D., &amp; <strong>Chan, J.</strong> (2013). Reducing annotation effort on unbalanced corpus based on cost matrix. <em>Paper presented at the 2013 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL HLT 2013) Student Research Workshop, Atlanta, GA. </em>[<a href="https://drive.google.com/file/d/0B1J84EpLdwM4cGJ0Q1JLUW5FNms/edit?usp=sharing" target="_blank">PDF</a>]</p>
+							<p><strong>Chan, J.</strong>, Paletz, S., &amp; Schunn, C. (2012). Analogy as a strategy for supporting complex problem solving under uncertainty. <em>Memory and Cognition, 40,</em> 1352-1365. [<a href="https://docs.google.com/open?id=0B1J84EpLdwM4SFV3Z191ZHBEM1E" target="_blank">PDF</a>]
+						</div>
+					</div>
+					<div class="wrapper">
+						<h2>Analogies and Idea Generation in an Expert Design Team</h2>
+						<div class="box" style="float:left; height:100%">
+							<img style="width=50px; height:180px" src="files/idea_space.png">
+						</div>
+						<div class="box" style="height:100%; margin-left:225px; margin-top:-10px">
+							<p>with <span class="collab"><a href="http://www.lrdc.pitt.edu/schunn">Chris Schunn</a> (Pitt psych)</span></p>
+							<p>For my master's thesis I did a deep-dive analysis of a multidisciplinary expert design team's brainstorming conversations for a new product. I tried to characterize the impact of analogy use on idea generation, looking in particular for evidence of using far analogies to "jump" into very different parts of the idea space.</p>
+							<p><strong>Recent findings:</strong></p>
+							<ul>
+							<li>Far analogies tended to be sparked when the designers were exploring variations on a theme for particular solution approaches, and helped them come up with more ideas along the same lines, rather than using them to jump into very different idea spaces.</li>
+							</ul>
+							<p><strong>Pubs:</strong></p>
+							<p><strong>Chan, J.</strong>, &amp; Schunn, C. (accepted). The Impact of analogies on creative concept generation: Lessons from an in vivo study in engineering design. <em>Cognitive Science</em>. [<a href="https://drive.google.com/file/d/0B1J84EpLdwM4THRwWkh2andZZWs/edit?usp=sharing" target="_blank">PDF</a>]</p>
+						</div>
+						<div class="wrapper">
+							<h2>Advanced Analogical Search with Form and Function</h2>
+							<div class="box" style="float:left; height:100%">
+								<img style="width=50px; height:145px" src="files/verrocchio_structure.png">
+							</div>
+							<div class="box" style="height:100%; margin-left:225px; margin-top:-10px">
+								<p>with <span class="collab"><a href="http://www.lrdc.pitt.edu/schunn">Chris Schunn</a> (Pitt psych), <a href="http://www.me.gatech.edu/faculty/fu">Kate Fu</a> (CMU MechE, now GA Tech Design/MechE), <a href="http://www.cmu.edu/me/people/jonathan-cagan.html">Jon Cagan</a> (CMU MechE), <a href="http://www.psy.cmu.edu/people/kotovsky.html">Ken Kotovsky</a> (CMU Psych), <a href="http://epd.sutd.edu.sg/faculty/kristin-l-wood/">Kris Wood</a> (MIT-SUTD EPD)</span></p>
+								<p>In this project we explored computational approaches for finding and delivering analogous example designs to designers to inspire creativity. We used a combination of text mining algorithms and Bayesian structure learning to build structured representations of large repositories of design examples to support searching for potentially inspiring examples. We also ran behavioral experiments to explore and test cognitive science principles for finding and presenting analogous examples for maximal ideation benefit.</p>
+								<p><strong>Recent findings:</strong></p>
+								<ul>
+								<li>Our computationally constructed structures were able to capture common structure from experts' representations of collections of design examples, and also support surprising but sensible novel insights into the relationships between design examples</li>
+								<li>Some (conceptually close) between-domain analogous examples were helpful for ideation, but analogies that were too conceptually distant harmed ideation</li>
+								<li>Analogical distance and commonness of examples had statistically distinct effects on ideation process and outcomes</li>
+								</ul>
+								<p><strong>Pubs:</strong></p>
+								<p>Fu, K.*, <strong>Chan, J.</strong>, Schunn, C., Cagan, J., &amp; Kotovsky, K (2013). Expert representation of design repository space: A comparison to and validation of algorithmic output. <em>Design Studies, 34,</em> 729-762. [<a href="https://docs.google.com/file/d/0B1J84EpLdwM4OGVGY1drNFFJNVE/edit?usp=sharing" target="_blank">PDF</a>]</p>
+								<p>Fu, K.*, <strong>Chan, J.</strong>, Cagan, J., Kotovsky, K., Schunn, C., &amp; Wood, K . (2013). The meaning of "near" and "far": The impact of structuring design databases and the effect of distance of analogy on design output. <em>Journal of Mechanical Design, 135,</em> 021007. [<a href="http://www.lrdc.pitt.edu/schunn/research/papers/fuchanetal-near-far-2013.pdf" target="_blank">PDF</a>]</p>
+								<p><strong>Chan, J.</strong>, Fu, K.*, Schunn, C., Cagan, J., Wood, K., &amp; Kotovsky, K. (2011). On the benefits and pitfalls of analogies for innovative design: Ideation performance based on analogical distance, commonness, and modality of examples. <em>Journal of Mechanical Design, 133,</em> 081004. [<a href="https://docs.google.com/open?id=0B1J84EpLdwM4UWh5N0ZTQ0hFYVU" target="_blank">PDF</a>]</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- <div class="section-divider"></div> -->
+				<div id="papers">
+					<h1 class="section-header">PAPERS</h1>
+					<p><em>* student co-author</em></p>
+					
+					<h2>JOURNAL PAPERS</h2>
+						
+						<p><span class="me">Chan, J.</span>, & Schunn, C. (accepted). The Impact of analogies on creative concept generation: Lessons from an in vivo study in engineering design. <em>Cognitive Science</em>. <a href="files/2014-cogsci-analogy.pdf">[PDF]</a></p>
+						
+						<p>Fu, K.*, <strong>Chan, J.</strong>, Schunn, C., Cagan, J., &amp; Kotovsky, K (2013). Expert representation of design repository space: A comparison to and validation of algorithmic output. <em>Design Studies, 34,</em> 729-762. [<a href="https://docs.google.com/file/d/0B1J84EpLdwM4OGVGY1drNFFJNVE/edit?usp=sharing" target="_blank">PDF</a>]</p>
+						
+						<p>Fu, K.*, <strong>Chan, J.</strong>, Cagan, J., Kotovsky, K., Schunn, C., &amp; Wood, K . (2013). The meaning of "near" and "far": The impact of structuring design databases and the effect of distance of analogy on design output. <em>Journal of Mechanical Design, 135,</em> 021007. [<a href="http://www.lrdc.pitt.edu/schunn/research/papers/fuchanetal-near-far-2013.pdf" target="_blank">PDF</a>]</p>
+						
+						<p><strong>Chan, J.</strong>, Paletz, S., &amp; Schunn, C. (2012). Analogy as a strategy for supporting complex problem solving under uncertainty. <em>Memory and Cognition, 40,</em> 1352-1365. [<a href="https://docs.google.com/open?id=0B1J84EpLdwM4SFV3Z191ZHBEM1E" target="_blank">PDF</a>]</p>
+						
+						<p><strong>Chan, J.</strong>, Fu, K.*, Schunn, C., Cagan, J., Wood, K., &amp; Kotovsky, K. (2011). On the benefits and pitfalls of analogies for innovative design: Ideation performance based on analogical distance, commonness, and modality of examples. <em>Journal of Mechanical Design, 133,</em> 081004. [<a href="https://docs.google.com/open?id=0B1J84EpLdwM4UWh5N0ZTQ0hFYVU" target="_blank">PDF</a>]</p>
+					
+					<h2>CONFERENCE PRESENTATIONS</h2>
+					
+						<p><strong>Chan, J.,</strong> Dow, S., &amp; Schunn, C. (2014). Conceptual distance matters when building on others' ideas in crowd-collaborative innovation platforms. <em>Poster presented at the 17th ACM Conference on Computer Supported Cooperative Work and Social Computing, Baltimore, MD.</em> <a href="http://dx.doi.org/10.1145/2556420.2556500" rel="nofollow">http://dx.doi.org/10.1145/2556420.2556500</a>. [<a href="https://drive.google.com/file/d/0B1J84EpLdwM4ZVdmLUtYbC02RzA/edit?usp=sharing" target="_blank">PDF</a>][<a href="http://figshare.com/articles/Conceptual_Distance_Matters_When_Building_on_Others_Ideas_in_Crowd_Collaborative_Innovation_Platforms/939406" target="_blank">Poster</a>]</p>
+						
+						<p><strong>Chan, J.</strong>, &amp; Schunn, C. (2013). Near rather than far analogical sources leads to success in a design competition. <em>Poster presented at the Psychonomic Society annual meeting, Toronto, Canada.</em></p>
+						
+						<p>Fu, K.*, <strong>Chan, J.</strong>, Schunn, C., Cagan, J., &amp; Kotovsky, K. (2013). Testing the basis for an automated design-by-analogy tool through comparison to expert thinking. <em>Paper presented at the 25th International Conference on Design Theory and Methodology (DTM), Portland, OR.</em></p>
+						
+						<p>Luo, W,* Litman, D., &amp; <strong>Chan, J.</strong> (2013). Reducing annotation effort on unbalanced corpus based on cost matrix. <em>Paper presented at the 2013 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL HLT 2013) Student Research Workshop, Atlanta, GA. </em>[<a href="https://drive.google.com/file/d/0B1J84EpLdwM4cGJ0Q1JLUW5FNms/edit?usp=sharing" target="_blank">PDF</a>]</p>
+						
+						<p>Fu, K.*, <strong>Chan, J.</strong>, Cagan, J., Kotovsky, K., Schunn, C., &amp; Wood, K . (2012). The meaning of "near" and "far": The impact of structuring design databases and the effect of distance of analogy on design output. <em>Paper presented at the 24th International Conference on Design Theory and Methodology (DTM), Chicago, IL. </em><strong>**Best Paper Award**</strong></p>
+						
+						<p><strong>Chan, J.,</strong> &amp; Schunn, C. (2012). Re-examining the impact of analogies on creative ideation search patterns in engineering design. <em>Talk presented at the 4th Biennial Conference of the International Society for the Psychology of Science and Technology (ISPST), Pittsburgh, PA.</em></p>
+						
+						<p><strong>Chan, J.,</strong> Fu, K.*, Schunn, C., Cagan, J., Wood, K., &amp; Kotovsky, K. (2011). On the effective use of design-by-analogy: The influences of analogical distance and commonness of analogous designs on ideation performance. <em>Paper presented at the International Conference on Engineering Design, Copenhagen, Denmark.</em></p>
+						
+						<p><strong>Chan, J.</strong>, Fu, K.*, Schunn, C., Wood, K., Cagan, J., &amp; Kotovsky, K. (2010). What makes for inspirational examples in design? The effects of example modality, distance, and familiarity. <em>Poster presented at the Cognitive Science Society annual meeting, Portland, OR.</em></p>
+						
+						<p><strong>Chan, J.,</strong> &amp; Hagaman, J. A. (2009). The role of visual imagery in deductive relational reasoning. <em>Poster presented at the Psychonomic Society annual meeting, Boston, MA.</em></p>
+					
+					<h2>IN PROGRESS</h2>
+					
+						<p>Wang, Y.*, <strong>Chan, J.</strong>, Lovell, M., &amp; Schunn, C. (in preparation). An in vivo investigation of the importance of different solution search patterns for innovative design outcomes.</p>
+						
+						<p><strong>Chan, J.</strong>, &amp; Nokes-Malach, T. (in preparation). Situated creativity: Larger physical spaces facilitate increased creativity in divergent problem solving.</p>
+						
+						<p>Goncher, A.*, <strong>Chan, J.</strong>, Schunn, C., &amp; Lovell, M. (in revision). A robust and efficient function-focused measure of design innovation for design process-outcome studies.</p>
+						
+						<p>Paletz, S., <strong>Chan, J.</strong>, &amp; Schunn, C. (in revision). Making conflicts work: Team success moderates the relationship between micro-conflicts and uncertainty.</p>
+						
+						<p><b>Chan, J., </b>Dow, S. P., &amp; Schunn, C. (in revision). Do the best design ideas (really) come from conceptually distant sources of inspiration?</p>
+						
+						<p>Paletz, S., <strong>Chan, J.</strong>, &amp; Schunn, C. (under review). Now and later: Different relationships between micro-conflicts and subsequent uncertainty.</p>
+
+				</div>
+				
+			</div>
+			<!-- <div id="right">
+				<a class="twitter-timeline" href="https://twitter.com/JoelChan86" data-widget-id="437461319831138304">Tweets by @JoelChan86</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			</div> -->
+			<div id="navbar">
+				<h1 style="font-size:40px; text-align:right; padding-bottom:0px; margin-bottom:5px">JOEL CHAN</h1>
+				<img id="hoverImage" src="files/joel-web.jpg">
+				<span class="navlist">
+					<p><a href="#header">ABOUT</a></p>
+					<p><a href="#news">NEWS</a></p>
+					<p><a href="#projects">PROJECTS</a></p>
+					<p><a href="#papers">PAPERS</a></p>
+					<!-- <p><a href="#people">PEOPLE</a></p> -->
+					<p><a href="files/cv-current.pdf">CV</a></p>
+					<br>
+					<p style="text-align:left; margin-left:55px">CONNECT</p>
+					<p>
+						<a href="mailto:joelchuc@cs.cmu.edu"><img style="height:20px; width:auto" src="files/mail.png"></a>
+						<a href="http://www.quora.com/Joel-Chan"><img style="height:20px; width:auto" src="files/quora.png"></a>
+						<a href="http://twitter.com/JoelChan86"><img style="height:20px; width:auto" src="files/twitter.png"></a>
+					</p>
+				</span>
+			</div>
+			<div id="footer">
+				<p>Copyright Joel Chan 2014</p>
+			</div>
+		</div>
+	</body>
+</html>

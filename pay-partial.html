@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Payment for brainstorming HIT</title>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</head>
+  <body>
+    <div class="container clearfix">
+      <h3>Instructions</h3>
+      <p>Enter your participation code and click on the "submit" button.</p>
+      <p> If your code is valid, a verification code will appear below the input box.</p>
+      <p>Enter that verification into the HIT on Mturk and submit it.</p>
+      <div class="input-group" style="width:35%">
+        <input type="text" class="form-control participation-input" placeholder="Enter participation code here...">
+        <span class="input-group-addon btn participation-enter">Submit</span>
+      </div>
+    </div>
+    <script>
+
+      var codeCorrect = "31346ff3661d80a0ea4b650c01f23497";
+      var verificationCode = "5e2d203aaa0adbb0b7de7b95a03d8110"
+      var verificationText = "<br><div>Your verification code is: " 
+                              + verificationCode
+                              + "</div>";
+      // event handler - on submit click, grab code
+      $('.participation-enter').click(function() {
+        var codeEntered = $('.participation-input').val();
+
+        // console.log("Entered code: " + codeEntered);
+
+        if (codeEntered == codeCorrect) {
+          $('.container').append(verificationText)
+        } else {
+          if (confirm("Incorrect code! Try again.")) {
+            $('.participation-input').val("");
+          }
+        }
+      });
+    </script>
+  </body>
+</html> 
